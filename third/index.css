@@ -1,0 +1,70 @@
+body,html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0rem;
+}
+
+body div {
+
+    width: 100%;
+    height: 14.28%;
+
+}
+
+body div:first-child{
+
+    
+    background-color: grey;
+   
+    padding-top: 30px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+body div:first-child div {
+    display: inline-block; 
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    
+
+}
+
+body div:nth-child(2) {
+    height: 28.56%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+body div:nth-child(2) p {
+
+    font-size: 2rem;
+
+}
+
+body div:nth-child(3) {
+
+    background-color: blue;
+    
+}
+
+body div:nth-child(4) {
+
+    background-color:turquoise;
+    
+}
+
+body div:nth-child(5) {
+
+    background-color: greenyellow;
+    
+}
+
+body div:nth-child(6) {
+
+    background-color: yellow;
+    
+}
+
+
+
